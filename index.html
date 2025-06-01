@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Startseite</title>
+
+  <!-- Verlinkung zum CSS -->
+  <link rel="stylesheet" href="css/styles.css" media="all">
+  <meta name="color-scheme" content="light dark">
+</head>
+<body>
+  <!-- Skip-Links für Barrierefreiheit -->
+  <div id="skip-links">
+    <a href="#main">Zum Inhalt springen</a>
+    <a href="#footer">Zum Footer springen</a>
+  </div>
+
+  <header class="container">
+    <div class="logo">
+      <h1>Dein Name</h1>
+    </div>
+    <nav aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Startseite</a></li>
+        <li><a href="about.html">Über mich</a></li>
+        <li><a href="projects.html">Projekte</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <h2>Hallo, ich bin Dein Name</h2>
+      <p>Webentwickler/in &amp; Designer/in aus Stadt. Willkommen auf meinem Portfolio!</p>
+    </section>
+    <section id="skills">
+      <h2>Meine Skills</h2>
+      <ul>
+        <li>HTML &amp; CSS (SCSS)</li>
+        <li>JavaScript &amp; TypeScript</li>
+        <li>React &amp; Next.js</li>
+        <li>Git &amp; GitHub</li>
+        <li>Design mit Figma</li>
+      </ul>
+    </section>
+    <section id="featured-project">
+      <h2>Ausgewählte Projekte</h2>
+      <div class="card">
+        <h3>Projekt A</h3>
+        <p>Kurzbeschreibung zu Projekt A.</p>
+        <a href="projects.html#projekt-a" class="btn btn-primary">Mehr erfahren</a>
+      </div>
+      <div class="card">
+        <h3>Projekt B</h3>
+        <p>Kurzbeschreibung zu Projekt B.</p>
+        <a href="projects.html#projekt-b" class="btn btn-primary">Mehr erfahren</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="container">
+    <section aria-labelledby="footer-sitemap">
+      <h2 id="footer-sitemap">Seitenübersicht</h2>
+      <nav aria-label="Footer-Navigation">
+        <ul>
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="about.html">Über mich</a></li>
+          <li><a href="projects.html">Projekte</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="contact-footer">
+      <h2>Kontakt</h2>
+      <address>
+        <p>E-Mail: <a href="mailto:deine.email@example.com">deine.email@example.com</a></p>
+      </address>
+    </section>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+// 00_rootvariables.scss
+
+// Farbdefinitionen Light Mode
+$color-primary-light: #0077cc;
+$color-secondary-light: #f4f4f4;
+$color-text-light: #222222;
+$color-bg-light: #ffffff;
+
+// Farbdefinitionen Dark Mode
+$color-primary-dark: #3399ff;
+$color-secondary-dark: #333333;
+$color-text-dark: #e0e0e0;
+$color-bg-dark: #121212;
+
+// Breakpoints
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
